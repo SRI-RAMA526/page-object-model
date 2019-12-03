@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Flipkart Login \u0026 Search Item",
+        "description": "",
+        "id": "to-login-to-the-flipkart-homepage;flipkart-login-\u0026-search-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8486519100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "flipkart is already opened",
+            "match": {
+              "location": "FlipkartStepDefinition.flipkart_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 39884400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of the page is flipkart",
+            "match": {
+              "location": "FlipkartStepDefinition.get_homepage_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82889400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "FlipkartStepDefinition.click_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 316254900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter the user login details",
+            "match": {
+              "location": "FlipkartStepDefinition.enter_user_login_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1364853500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "search the required item",
+            "match": {
+              "location": "FlipkartStepDefinition.search_required_item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10233631199,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on search button",
+            "match": {
+              "location": "FlipkartStepDefinition.search_button_click()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 392116600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close on Browser",
+            "match": {
+              "location": "FlipkartStepDefinition.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Login to the Flipkart Homepage",
+    "description": "",
+    "id": "to-login-to-the-flipkart-homepage",
+    "keyword": "Feature",
+    "uri": "E:/Cucumber Practice/loginpages/src/main/java/com/cucumber/flipkartfeature/flipkartfeature.feature"
+  }
+]
